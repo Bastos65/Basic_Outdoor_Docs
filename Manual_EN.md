@@ -153,7 +153,7 @@ Four info fields:
 #### Screen Saver Mode
 ![Screen Saver](docs/images/Screen_Saver.png)
 
-Time and date below the background sketch of the top part (vertically centered when no sketch is displayed) and battery level ring around the screen. Everything uses the **Screen Saver Color** (white by default).
+Time and date below the background sketch of the top part (vertically centered when no sketch is displayed) battery icon and level at the bottom (same place as in full display). Everything uses the **Screen Saver Color** (white by default).
 
 #### AOD (Always On Display)
 ![AOD Mode](docs/images/Screen_AOD.png)
@@ -326,7 +326,7 @@ BASIC OUTDOOR offers **31 customizable colors**:
 | 27 | Right Bottom Field Icon Color |
 | 28 | Zones Separator Lines Color (= background to hide) |
 | 29 | Background Sketch Color (= background to hide) |
-| 30 | Screen Saver Color (time, date, sketch, battery ring) |
+| 30 | Screen Saver Color (time, date, sketch, battery) |
 
 ### Predefined Color Palette
 

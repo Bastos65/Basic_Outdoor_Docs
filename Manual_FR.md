@@ -153,7 +153,7 @@ Quatre champs info :
 #### Mode Économiseur d'Écran
 ![Screen Saver](docs/images/Screen_Saver.png)
 
-Heure et date sous l'esquisse de fond de la partie haute (centrées verticalement sans esquisse) et anneau de niveau de batterie autour de l'écran. Tout utilise la **Couleur économiseur d'écran** (blanc par défaut).
+Heure et date sous l'esquisse de fond de la partie haute (centrées verticalement sans esquisse) icône et niveau de batterie en bas (même place qu'en affichage complet). Tout utilise la **Couleur économiseur d'écran** (blanc par défaut).
 
 #### AOD (Always On Display)
 ![AOD Mode](docs/images/Screen_AOD.png)
@@ -326,7 +326,7 @@ BASIC OUTDOOR offre **31 couleurs personnalisables** :
 | 27 | Icône champ droite bas |
 | 28 | Lignes de séparation des zones (= fond pour masquer) |
 | 29 | Esquisse de fond (= fond pour masquer) |
-| 30 | Économiseur d'écran (heure, date, esquisse, anneau batterie) |
+| 30 | Économiseur d'écran (heure, date, esquisse, batterie) |
 
 ### Palette de Couleurs Prédéfinies
 

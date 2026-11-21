@@ -25,7 +25,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - 7 date display formats
 - Multilingual support (19 languages)
 - Intelligent power saving (screen saver + screen off)
-- Screen saver: time and date below the sketch (centered without sketch), battery ring, dedicated Screen Saver Color
+- Screen saver: time and date below the sketch (centered without sketch), battery icon and level at the bottom, dedicated Screen Saver Color
 - Show / hide titles, icons and units of the 6 side fields (remaining elements re-centered, bigger values)
 - Ticks around top and bottom zones only, data cells up to the screen edge, bigger fonts
 - Inverted arc below the gauge for a bigger bottom center field

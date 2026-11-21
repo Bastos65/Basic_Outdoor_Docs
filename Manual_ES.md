@@ -153,7 +153,7 @@ Cuatro campos info:
 #### Modo Salvapantallas
 ![Screen Saver](docs/images/Screen_Saver.png)
 
-Hora y fecha bajo el boceto de fondo de la parte superior (centradas verticalmente sin boceto) y anillo de nivel de batería alrededor de la pantalla. Todo usa el **Color del salvapantallas** (blanco por defecto).
+Hora y fecha bajo el boceto de fondo de la parte superior (centradas verticalmente sin boceto) icono y nivel de batería abajo (mismo lugar que en pantalla completa). Todo usa el **Color del salvapantallas** (blanco por defecto).
 
 #### AOD (Always On Display)
 ![AOD Mode](docs/images/Screen_AOD.png)
@@ -326,7 +326,7 @@ BASIC OUTDOOR ofrece **31 colores personalizables**:
 | 27 | Icono campo derecha abajo |
 | 28 | Líneas separadoras de zonas (= fondo para ocultar) |
 | 29 | Boceto de fondo (= fondo para ocultar) |
-| 30 | Salvapantallas (hora, fecha, boceto, anillo de batería) |
+| 30 | Salvapantallas (hora, fecha, boceto, batería) |
 
 ### Paleta de Colores Predefinidos
 
