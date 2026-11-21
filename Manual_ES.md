@@ -32,7 +32,7 @@
 
 ## Descripción General
 
-**BASIC OUTDOOR** es una esfera outdoor de estilo táctico para relojes Garmin Connect IQ. Una gran hora centrada se muestra sobre un boceto dibujado a mano (montañas, corredor de trail, ciclista, nadador, esquiador...), encima de una cuadrícula estructurada de 7 celdas de datos alrededor de un indicador de objetivo segmentado, con una barra de información en la parte inferior.
+**BASIC OUTDOOR** es una esfera outdoor de estilo táctico para relojes Garmin Connect IQ. Una gran hora centrada se muestra sobre un boceto dibujado a mano (montañas, corredor de trail, ciclista, senderista, lago, siluetas deportivas...), encima de una cuadrícula estructurada de 7 celdas de datos alrededor de un indicador de objetivo segmentado, con una barra de información en la parte inferior.
 
 ### Características Clave
 
@@ -42,7 +42,7 @@
 - ❤️ **Campo Inferior Central**: Frecuencia cardíaca por defecto
 - 🔋 **Barra de Información**: Info Izquierda / Batería / Info Derecha
 - 🌙 **Info Superior**: Luna por defecto, a la izquierda de la hora
-- 🎨 **30 Colores Personalizables**: Incluidos los fondos de zonas, las celdas, los separadores y cada icono de campo
+- 🎨 **31 Colores Personalizables**: Incluidos los fondos de zonas, las celdas, los separadores y cada icono de campo
 - 🌦️ **Integración Meteorológica**: Garmin Weather y OpenWeatherMap
 - ⚡ **Optimización de Batería**: Modos inteligentes de ahorro de energía
 - 🌍 **Soporte Multilingüe**: 19 idiomas disponibles
@@ -64,8 +64,8 @@
 
 Un boceto dibujado a mano se muestra en la zona superior, detrás de la hora:
 
-- **Paisajes**: Montañas (por defecto), Corredor de trail, Ciclista, Nadador, Esquiador
-- **Siluetas**: Corredor, Ciclista o Nadador ocupando toda la zona superior
+- **Paisajes**: Montañas (por defecto), Corredor de trail, Ciclista, Senderista, Lago
+- **Siluetas**: gran silueta de corredor, ciclista o nadador
 - **Ninguno**: Sin fondo
 - Color de tinte configurable
 
@@ -109,6 +109,8 @@ Cuatro campos info:
 - Zona superior (fecha / hora), 7 celdas alrededor del indicador, zona inferior (info / batería)
 - Cada zona tiene su propio color de fondo
 - Líneas separadoras de 1 px con color configurable (u ocultas)
+- Marcas de horas / minutos solo alrededor de las zonas superior e inferior: las celdas llegan al borde de la pantalla para valores más grandes
+- Arco invertido bajo el indicador para dar más espacio al campo inferior central
 
 ### 9. Meteorología
 
@@ -151,7 +153,7 @@ Cuatro campos info:
 #### Modo Salvapantallas
 ![Screen Saver](docs/images/Screen_Saver.png)
 
-Hora y fecha bajo el boceto de fondo de la parte superior y anillo de nivel de batería alrededor de la pantalla.
+Hora y fecha bajo el boceto de fondo de la parte superior (centradas verticalmente sin boceto) y anillo de nivel de batería alrededor de la pantalla. Todo usa el **Color del salvapantallas** (blanco por defecto).
 
 #### AOD (Always On Display)
 ![AOD Mode](docs/images/Screen_AOD.png)
@@ -241,7 +243,7 @@ Elige cómo se muestran los valores de duración en la esfera:
 | Campo Izquierda Centro | Altitud | Tipo de dato, título personalizado |
 | Campo Izquierda Abajo | Minutos activos del día | Tipo de dato, título personalizado |
 | Campo Derecha Arriba | Distancia del día | Tipo de dato, título personalizado |
-| Campo Derecha Centro | Temperatura meteorológica | Tipo de dato, título personalizado |
+| Campo Derecha Centro | Temperatura meteorológica (título "WEATHER") | Tipo de dato, título personalizado |
 | Campo Derecha Abajo | Tiempo de recuperación | Tipo de dato, título personalizado |
 | Campo de Texto Superior | Fecha | Tipo de dato, título personalizado, modo de visualización |
 | Campo Inferior Central | Frecuencia cardíaca | Tipo de dato |
@@ -249,6 +251,10 @@ Elige cómo se muestran los valores de duración en la esfera:
 | Campo Batería | Batería en porcentaje | Tipo de dato |
 | Info Derecha | Número de notificaciones | Tipo de dato |
 | Info Superior (izquierda de la hora) | Iluminación lunar | Tipo de dato |
+
+#### Visualización de Títulos, Iconos y Unidades
+
+**Mostrar los títulos de los 6 campos laterales** / **Mostrar los iconos de los 6 campos laterales** / **Mostrar las unidades de los 6 campos laterales** (activados por defecto): oculta los títulos, iconos y/o unidades de las 6 celdas. Los elementos restantes se recentran en la celda y los valores usan una fuente más grande.
 
 #### Títulos Personalizados
 
@@ -271,14 +277,14 @@ Deja el título personalizado vacío para usar el título por defecto del dato. 
 | Opción | Descripción |
 |--------|-------------|
 | Ninguno | Sin boceto de fondo |
-| Montañas | Cordillera con abetos sobre la línea separadora (por defecto) |
-| Corredor de trail | Montañas, sendero y corredor |
-| Ciclista | Colinas, carretera y ciclista |
-| Nadador | Lago, olas y nadador |
-| Esquiador | Montañas, pendiente, huellas de esquí y esquiador |
-| Silueta carrera | Corredor detallado ocupando toda la zona superior |
-| Silueta ciclismo | Ciclista detallado ocupando toda la zona superior |
-| Silueta natación | Nadador detallado ocupando toda la zona superior |
+| Montañas | Cordillera con abetos (por defecto) |
+| Corredor de trail | Montañas, abetos y corredor de trail |
+| Ciclista | Montañas, abetos y ciclista |
+| Senderista | Montañas, orilla de lago y senderista |
+| Lago | Montañas reflejadas en un lago, senderista sobre una roca |
+| Silueta carrera | Gran silueta de corredor |
+| Silueta ciclismo | Gran silueta de ciclista |
+| Silueta natación | Gran silueta de nadador |
 
 **Color del boceto de fondo**: Color de tinte del boceto. Elige el mismo color que el fondo de la zona superior para ocultarlo.
 
@@ -286,7 +292,7 @@ Deja el título personalizado vacío para usar el título por defecto del dato. 
 
 ### Personalización de Colores
 
-BASIC OUTDOOR ofrece **30 colores personalizables**:
+BASIC OUTDOOR ofrece **31 colores personalizables**:
 
 | ID | Elemento |
 |----|----------|
@@ -320,6 +326,7 @@ BASIC OUTDOOR ofrece **30 colores personalizables**:
 | 27 | Icono campo derecha abajo |
 | 28 | Líneas separadoras de zonas (= fondo para ocultar) |
 | 29 | Boceto de fondo (= fondo para ocultar) |
+| 30 | Salvapantallas (hora, fecha, boceto, anillo de batería) |
 
 ### Paleta de Colores Predefinidos
 

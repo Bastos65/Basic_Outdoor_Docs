@@ -32,7 +32,7 @@
 
 ## Overview
 
-**BASIC OUTDOOR** is a tactical outdoor watch face for Garmin Connect IQ watches. A large centered time sits on a hand-drawn sketch background (mountains, trail runner, cyclist, swimmer, skier...), above a structured grid of 7 data cells surrounding a segmented goal gauge, with a bottom info bar.
+**BASIC OUTDOOR** is a tactical outdoor watch face for Garmin Connect IQ watches. A large centered time sits on a hand-drawn sketch background (mountains, trail runner, cyclist, hiker, lake, sport silhouettes...), above a structured grid of 7 data cells surrounding a segmented goal gauge, with a bottom info bar.
 
 ### Key Features
 
@@ -42,7 +42,7 @@
 - ❤️ **Bottom Center Field**: Heart rate by default
 - 🔋 **Bottom Info Bar**: Info Left / Battery / Info Right
 - 🌙 **Info Top Field**: Moon by default, left of the time
-- 🎨 **30 Customizable Colors**: Including zone backgrounds, cells, separators and each field icon
+- 🎨 **31 Customizable Colors**: Including zone backgrounds, cells, separators and each field icon
 - 🌦️ **Weather Integration**: Garmin Weather and OpenWeatherMap
 - ⚡ **Battery Optimization**: Intelligent power saving modes
 - 🌍 **Multilingual Support**: 19 languages — full interface translations for French (FR), Spanish (ES), Italian (IT) and German (DE); base translations for Bulgarian, Czech, Danish, Dutch, Finnish, Croatian, Hungarian, Norwegian, Polish, Portuguese, Russian, Slovak, Slovenian, and Swedish
@@ -64,8 +64,8 @@
 
 A hand-drawn sketch is displayed in the top zone, behind the time:
 
-- **Landscapes**: Mountains (default), Trail Runner, Cyclist, Swimmer, Skier
-- **Silhouettes**: Runner, Cyclist or Swimmer silhouette filling the whole top zone
+- **Landscapes**: Mountains (default), Trail Runner, Cyclist, Hiker, Lake
+- **Silhouettes**: large Runner, Cyclist or Swimmer silhouette
 - **None**: No background
 - Tinted with a configurable color
 
@@ -109,6 +109,8 @@ Four info fields:
 - Top zone (date / time), 7 cells around the gauge, bottom zone (infos / battery)
 - Each zone has its own background color
 - 1 px separator lines with configurable color (or hidden)
+- Hour / minute ticks around the top and bottom zones only: data cells extend to the screen edge for bigger values
+- Inverted arc below the gauge to give more room to the bottom center field
 
 ### 9. Weather
 
@@ -151,7 +153,7 @@ Four info fields:
 #### Screen Saver Mode
 ![Screen Saver](docs/images/Screen_Saver.png)
 
-Time and date below the background sketch of the top part and battery level ring around the screen.
+Time and date below the background sketch of the top part (vertically centered when no sketch is displayed) and battery level ring around the screen. Everything uses the **Screen Saver Color** (white by default).
 
 #### AOD (Always On Display)
 ![AOD Mode](docs/images/Screen_AOD.png)
@@ -241,7 +243,7 @@ Choose how duration-based values are displayed across the watch face:
 | Left Middle Field | Altitude | Data type, custom title |
 | Left Bottom Field | Active Minutes : Daily | Data type, custom title |
 | Right Top Field | Distance : Daily | Data type, custom title |
-| Right Middle Field | Weather Temperature | Data type, custom title |
+| Right Middle Field | Weather Temperature (title "WEATHER") | Data type, custom title |
 | Right Bottom Field | Recovery Time | Data type, custom title |
 | Top Text Field | Date | Data type, custom title, display mode |
 | Bottom Center Field | Heart Rate | Data type |
@@ -249,6 +251,10 @@ Choose how duration-based values are displayed across the watch face:
 | Battery Field | Battery In Percents | Data type |
 | Info Right | Notifications Count | Data type |
 | Info Top (left of time) | Moon Illumination | Data type |
+
+#### Titles, Icons & Units Display
+
+**Show Titles Of The 6 Side Fields** / **Show Icons Of The 6 Side Fields** / **Show Units Of The 6 Side Fields** (enabled by default): hide titles, icons and/or units of the 6 data cells. Remaining elements are re-centered in the cell and values get a bigger font.
 
 #### Custom Titles
 
@@ -271,14 +277,14 @@ Leave the custom title empty to use the default data title. Titles are displayed
 | Option | Description |
 |--------|-------------|
 | None | No background sketch |
-| Mountains | Mountain range with pine trees on the separator line (default) |
-| Trail Runner | Mountains, trail and runner |
-| Cyclist | Rolling hills, road and cyclist |
-| Swimmer | Lake, waves and swimmer |
-| Skier | Mountains, slope, ski tracks and skier |
-| Runner Silhouette | Detailed runner filling the top zone |
-| Cyclist Silhouette | Detailed cyclist filling the top zone |
-| Swimmer Silhouette | Detailed swimmer filling the top zone |
+| Mountains | Mountain range with pine trees (default) |
+| Trail Runner | Mountains, pine trees and trail runner |
+| Cyclist | Mountains, pine trees and cyclist |
+| Hiker | Mountains, lake shore and hiker |
+| Lake | Mountains reflected in a lake, hiker on a rock |
+| Runner Silhouette | Large runner silhouette |
+| Cyclist Silhouette | Large cyclist silhouette |
+| Swimmer Silhouette | Large swimmer silhouette |
 
 **Background Sketch Color**: Tint color of the sketch. Select the same color as the top zone background to hide it.
 
@@ -286,7 +292,7 @@ Leave the custom title empty to use the default data title. Titles are displayed
 
 ### Color Customization
 
-BASIC OUTDOOR offers **30 customizable colors**:
+BASIC OUTDOOR offers **31 customizable colors**:
 
 | ID | Element |
 |----|---------|
@@ -320,6 +326,7 @@ BASIC OUTDOOR offers **30 customizable colors**:
 | 27 | Right Bottom Field Icon Color |
 | 28 | Zones Separator Lines Color (= background to hide) |
 | 29 | Background Sketch Color (= background to hide) |
+| 30 | Screen Saver Color (time, date, sketch, battery ring) |
 
 ### Predefined Color Palette
 

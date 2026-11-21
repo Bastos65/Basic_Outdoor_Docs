@@ -32,7 +32,7 @@
 
 ## Vue d'ensemble
 
-**BASIC OUTDOOR** est un cadran outdoor au style tactique pour les montres Garmin Connect IQ. Une grande heure centrée s'affiche sur une esquisse dessinée à la main (montagnes, coureur trail, cycliste, nageur, skieur...), au-dessus d'une grille structurée de 7 cellules de données entourant une jauge d'objectif segmentée, avec une barre d'informations en bas.
+**BASIC OUTDOOR** est un cadran outdoor au style tactique pour les montres Garmin Connect IQ. Une grande heure centrée s'affiche sur une esquisse dessinée à la main (montagnes, coureur trail, cycliste, randonneur, lac, silhouettes sportives...), au-dessus d'une grille structurée de 7 cellules de données entourant une jauge d'objectif segmentée, avec une barre d'informations en bas.
 
 ### Caractéristiques Clés
 
@@ -42,7 +42,7 @@
 - ❤️ **Champ Bas Centre** : Fréquence cardiaque par défaut
 - 🔋 **Barre d'Informations** : Info Gauche / Batterie / Info Droite
 - 🌙 **Info Haut** : Lune par défaut, à gauche de l'heure
-- 🎨 **30 Couleurs Personnalisables** : Dont les fonds de zones, les cellules, les séparations et chaque icône de champ
+- 🎨 **31 Couleurs Personnalisables** : Dont les fonds de zones, les cellules, les séparations et chaque icône de champ
 - 🌦️ **Intégration Météo** : Garmin Weather et OpenWeatherMap
 - ⚡ **Optimisation Batterie** : Modes économie d'énergie intelligents
 - 🌍 **Support Multilingue** : 19 langues disponibles
@@ -64,8 +64,8 @@
 
 Une esquisse dessinée à la main s'affiche dans la zone haute, derrière l'heure :
 
-- **Paysages** : Montagnes (par défaut), Coureur trail, Cycliste, Nageur, Skieur
-- **Silhouettes** : Coureur, Cycliste ou Nageur occupant toute la zone haute
+- **Paysages** : Montagnes (par défaut), Coureur trail, Cycliste, Randonneur, Lac
+- **Silhouettes** : grande silhouette de coureur, cycliste ou nageur
 - **Aucun** : Pas de fond
 - Teinte de couleur configurable
 
@@ -109,6 +109,8 @@ Quatre champs info :
 - Zone haute (date / heure), 7 cellules autour de la jauge, zone basse (infos / batterie)
 - Chaque zone a sa propre couleur de fond
 - Lignes de séparation de 1 px de couleur configurable (ou masquées)
+- Graduations heures / minutes uniquement autour des zones haute et basse : les cellules vont jusqu'au bord de l'écran pour des valeurs plus grandes
+- Arc inversé sous la jauge pour laisser plus de place au champ bas centre
 
 ### 9. Météo
 
@@ -151,7 +153,7 @@ Quatre champs info :
 #### Mode Économiseur d'Écran
 ![Screen Saver](docs/images/Screen_Saver.png)
 
-Heure et date sous l'esquisse de fond de la partie haute et anneau de niveau de batterie autour de l'écran.
+Heure et date sous l'esquisse de fond de la partie haute (centrées verticalement sans esquisse) et anneau de niveau de batterie autour de l'écran. Tout utilise la **Couleur économiseur d'écran** (blanc par défaut).
 
 #### AOD (Always On Display)
 ![AOD Mode](docs/images/Screen_AOD.png)
@@ -241,7 +243,7 @@ Choisissez l'affichage des valeurs de durée sur le cadran :
 | Champ Gauche Milieu | Altitude | Type de donnée, titre personnalisé |
 | Champ Gauche Bas | Minutes actives du jour | Type de donnée, titre personnalisé |
 | Champ Droite Haut | Distance du jour | Type de donnée, titre personnalisé |
-| Champ Droite Milieu | Température météo | Type de donnée, titre personnalisé |
+| Champ Droite Milieu | Température météo (titre « WEATHER ») | Type de donnée, titre personnalisé |
 | Champ Droite Bas | Temps de récupération | Type de donnée, titre personnalisé |
 | Champ Texte Haut | Date | Type de donnée, titre personnalisé, mode d'affichage |
 | Champ Bas Centre | Fréquence cardiaque | Type de donnée |
@@ -249,6 +251,10 @@ Choisissez l'affichage des valeurs de durée sur le cadran :
 | Champ Batterie | Batterie en pourcentage | Type de donnée |
 | Info Droite | Nombre de notifications | Type de donnée |
 | Info Haut (à gauche de l'heure) | Illumination de la lune | Type de donnée |
+
+#### Affichage des Titres, Icônes et Unités
+
+**Afficher les titres des 6 champs latéraux** / **Afficher les icônes des 6 champs latéraux** / **Afficher les unités des 6 champs latéraux** (activés par défaut) : masque les titres, les icônes et/ou les unités des 6 cellules. Les éléments restants sont recentrés dans la cellule et les valeurs passent dans une police plus grande.
 
 #### Titres Personnalisés
 
@@ -271,14 +277,14 @@ Laissez le titre personnalisé vide pour utiliser le titre par défaut de la don
 | Option | Description |
 |--------|-------------|
 | Aucun | Pas d'esquisse de fond |
-| Montagnes | Chaîne de montagnes avec sapins posés sur la séparation (par défaut) |
-| Coureur trail | Montagnes, sentier et coureur |
-| Cycliste | Collines, route et cycliste |
-| Nageur | Lac, vagues et nageur |
-| Skieur | Montagnes, pente, traces de ski et skieur |
-| Silhouette course | Coureur détaillé occupant toute la zone haute |
-| Silhouette vélo | Cycliste détaillé occupant toute la zone haute |
-| Silhouette natation | Nageur détaillé occupant toute la zone haute |
+| Montagnes | Chaîne de montagnes avec sapins (par défaut) |
+| Coureur trail | Montagnes, sapins et coureur trail |
+| Cycliste | Montagnes, sapins et cycliste |
+| Randonneur | Montagnes, bord de lac et randonneur |
+| Lac | Montagnes reflétées dans un lac, randonneur sur un rocher |
+| Silhouette course | Grande silhouette de coureur |
+| Silhouette vélo | Grande silhouette de cycliste |
+| Silhouette natation | Grande silhouette de nageur |
 
 **Couleur esquisse de fond** : Teinte de l'esquisse. Choisissez la même couleur que le fond de la zone haute pour la masquer.
 
@@ -286,7 +292,7 @@ Laissez le titre personnalisé vide pour utiliser le titre par défaut de la don
 
 ### Personnalisation des Couleurs
 
-BASIC OUTDOOR offre **30 couleurs personnalisables** :
+BASIC OUTDOOR offre **31 couleurs personnalisables** :
 
 | ID | Élément |
 |----|---------|
@@ -320,6 +326,7 @@ BASIC OUTDOOR offre **30 couleurs personnalisables** :
 | 27 | Icône champ droite bas |
 | 28 | Lignes de séparation des zones (= fond pour masquer) |
 | 29 | Esquisse de fond (= fond pour masquer) |
+| 30 | Économiseur d'écran (heure, date, esquisse, anneau batterie) |
 
 ### Palette de Couleurs Prédéfinies
 

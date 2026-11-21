@@ -24,8 +24,8 @@ Choose your language:
 
 - **46 compatible Garmin watches**
 - **76+ data types** available
-- **30 customizable colors**
-- **8 hand-drawn sketch backgrounds** (mountains, trail runner, cyclist, swimmer, skier, sport silhouettes) or none
+- **31 customizable colors**
+- **8 hand-drawn sketch backgrounds** (mountains, trail runner, cyclist, hiker, lake, runner / cyclist / swimmer silhouettes) or none
 - **6 data cells** with title, colored icon and value around a **segmented goal gauge**
 - **Large centered time** with fixed-position seconds and AM/PM
 - **Dual weather support** (Garmin Weather + OpenWeatherMap)
