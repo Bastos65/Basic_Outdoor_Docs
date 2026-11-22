@@ -2,7 +2,7 @@
 
 > ⚠️ **AVISO**: Este repositorio contiene únicamente la documentación de usuario. No se incluye código fuente, algoritmos, lógica de servidor ni mecanismos de licencia. Cualquier intento de ingeniería inversa del producto está prohibido.
 
-![Version](https://img.shields.io/badge/version-Beta%200.0.1-blue)
+![Version](https://img.shields.io/badge/version-2026__11__22-blue)
 ![Platform](https://img.shields.io/badge/platform-Garmin%20Connect%20IQ-green)
 ![API](https://img.shields.io/badge/API-5.0.0%2B-orange)
 
@@ -631,8 +631,8 @@ Las fases lunares se numeran del 0 al 7:
 
 ---
 
-**Última actualización**: 20 de noviembre de 2026  
-**Versión del documento**: 0.1 (Beta)  
+**Última actualización**: 22 de noviembre de 2026  
+**Versión del documento**: 1.0  
 **Autor**: Bastos65
 
 ---

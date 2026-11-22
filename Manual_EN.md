@@ -2,7 +2,7 @@
 
 > ⚠️ **DISCLAIMER**: This repository contains user documentation only. No source code, algorithms, backend logic or licensing mechanisms are included. Any attempt to reverse engineer the product is prohibited.
 
-![Version](https://img.shields.io/badge/version-Beta%200.0.1-blue)
+![Version](https://img.shields.io/badge/version-2026__11__22-blue)
 ![Platform](https://img.shields.io/badge/platform-Garmin%20Connect%20IQ-green)
 ![API](https://img.shields.io/badge/API-5.0.0%2B-orange)
 
@@ -631,8 +631,8 @@ Moon phases are numbered from 0 to 7:
 
 ---
 
-**Last updated**: November 20, 2026  
-**Document version**: 0.1 (Beta)  
+**Last updated**: November 22, 2026  
+**Document version**: 1.0  
 **Author**: Bastos65
 
 ---

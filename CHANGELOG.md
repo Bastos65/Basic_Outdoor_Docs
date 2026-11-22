@@ -6,10 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
-## [Beta 0.0.1] - 2026-11-20
+## [2026_11_22]
 
 ### Added
-- Initial beta of BASIC OUTDOOR
+- Initial release of BASIC OUTDOOR
 - Large centered time with fixed-position seconds and AM/PM
 - Top zone sketch background: Mountains (default), Trail Runner, Cyclist, Hiker, Lake, Runner / Cyclist / Swimmer silhouettes, or None
 - Configurable sketch color
@@ -26,7 +26,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Multilingual support (19 languages)
 - Intelligent power saving (screen saver + screen off)
 - Screen saver: time and date below the sketch (centered without sketch), battery icon and level at the bottom, dedicated Screen Saver Color
-- Show / hide titles, icons and units of the 6 side fields (remaining elements re-centered, bigger values)
+- Show / hide titles, icons and units of the 6 side fields (units hidden by default, remaining elements re-centered, same value font in all fields, weather condition icon always shown)
 - Ticks around top and bottom zones only, data cells up to the screen edge, bigger fonts
 - Inverted arc below the gauge for a bigger bottom center field
 

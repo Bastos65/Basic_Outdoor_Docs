@@ -2,7 +2,7 @@
 
 > ⚠️ **AVERTISSEMENT** : Ce dépôt contient uniquement la documentation utilisateur. Aucun code source, algorithme, logique serveur ou mécanisme de licence n'est inclus. Toute tentative de rétro-ingénierie du produit est interdite.
 
-![Version](https://img.shields.io/badge/version-Beta%200.0.1-blue)
+![Version](https://img.shields.io/badge/version-2026__11__22-blue)
 ![Platform](https://img.shields.io/badge/platform-Garmin%20Connect%20IQ-green)
 ![API](https://img.shields.io/badge/API-5.0.0%2B-orange)
 
@@ -631,8 +631,8 @@ Les phases de lune sont numérotées de 0 à 7 :
 
 ---
 
-**Dernière mise à jour** : 20 novembre 2026  
-**Version du document** : 0.1 (Bêta)  
+**Dernière mise à jour** : 22 novembre 2026  
+**Version du document** : 1.0  
 **Auteur** : Bastos65
 
 ---
