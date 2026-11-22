@@ -254,7 +254,7 @@ Choisissez l'affichage des valeurs de durée sur le cadran :
 
 #### Affichage des Titres, Icônes et Unités
 
-**Afficher les titres des 6 champs latéraux** / **Afficher les icônes des 6 champs latéraux** / **Afficher les unités des 6 champs latéraux** (activés par défaut) : masque les titres, les icônes et/ou les unités des 6 cellules. Les éléments restants sont recentrés dans la cellule et les valeurs passent dans une police plus grande.
+**Afficher les titres des 6 champs latéraux** / **Afficher les icônes des 6 champs latéraux** / **Afficher les unités des 6 champs latéraux** (titres et icônes activés par défaut, unités désactivées par défaut) : masque les titres, les icônes et/ou les unités des 6 cellules. Les éléments restants sont recentrés dans la cellule. Masquer les icônes ou les unités agrandit la police des valeurs (même police dans les 6 champs). L'icône des conditions météo reste toujours affichée.
 
 #### Titres Personnalisés
 
@@ -297,35 +297,35 @@ BASIC OUTDOOR offre **31 couleurs personnalisables** :
 | ID | Élément |
 |----|---------|
 | 0 | Couleur de fond |
-| 1 | Graduations minutes & séparateurs |
+| 18 | Fond de la zone haute |
+| 29 | Esquisse de fond (= fond pour masquer) |
+| 19 | Fond des cellules de données |
+| 20 | Fond de la zone basse |
+| 28 | Lignes de séparation des zones (= fond pour masquer) |
+| 1 | Graduations minutes |
 | 2 | Graduations heures |
-| 3 | Texte de la date |
 | 4 | Heures |
 | 5 | Séparateur de l'heure |
 | 6 | Minutes |
 | 7 | Secondes & AM/PM |
-| 8 | Titres des champs |
+| 3 | Texte de la date |
 | 9 | Icône de la jauge centrale |
-| 10 | Valeurs des champs |
-| 11 | Jauge centrale Off |
 | 12 | Jauge centrale On |
-| 13 | Icône du champ bas centre |
-| 14 | Info Off |
-| 15 | Info Gauche On |
-| 16 | Icône batterie |
-| 17 | Info Droite On |
-| 18 | Fond de la zone haute |
-| 19 | Fond des cellules de données |
-| 20 | Fond de la zone basse |
-| 21 | Info Haut On |
+| 11 | Jauge centrale Off |
+| 8 | Titres des champs |
+| 10 | Valeurs des champs |
 | 22 | Icône champ gauche haut |
 | 23 | Icône champ gauche milieu |
 | 24 | Icône champ gauche bas |
 | 25 | Icône champ droite haut |
 | 26 | Icône champ droite milieu |
 | 27 | Icône champ droite bas |
-| 28 | Lignes de séparation des zones (= fond pour masquer) |
-| 29 | Esquisse de fond (= fond pour masquer) |
+| 13 | Icône du champ bas centre |
+| 16 | Icône batterie |
+| 14 | Info Off |
+| 21 | Info Haut On |
+| 15 | Info Gauche On |
+| 17 | Info Droite On |
 | 30 | Économiseur d'écran (heure, date, esquisse, batterie) |
 
 ### Palette de Couleurs Prédéfinies

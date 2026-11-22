@@ -254,7 +254,7 @@ Elige cómo se muestran los valores de duración en la esfera:
 
 #### Visualización de Títulos, Iconos y Unidades
 
-**Mostrar los títulos de los 6 campos laterales** / **Mostrar los iconos de los 6 campos laterales** / **Mostrar las unidades de los 6 campos laterales** (activados por defecto): oculta los títulos, iconos y/o unidades de las 6 celdas. Los elementos restantes se recentran en la celda y los valores usan una fuente más grande.
+**Mostrar los títulos de los 6 campos laterales** / **Mostrar los iconos de los 6 campos laterales** / **Mostrar las unidades de los 6 campos laterales** (títulos e iconos activados por defecto, unidades desactivadas por defecto): oculta los títulos, iconos y/o unidades de las 6 celdas. Los elementos restantes se recentran en la celda. Ocultar los iconos o las unidades agranda la fuente de los valores (misma fuente en los 6 campos). El icono de las condiciones meteorológicas siempre se muestra.
 
 #### Títulos Personalizados
 
@@ -297,35 +297,35 @@ BASIC OUTDOOR ofrece **31 colores personalizables**:
 | ID | Elemento |
 |----|----------|
 | 0 | Color de fondo |
-| 1 | Marcas de minutos y separadores |
+| 18 | Fondo de la zona superior |
+| 29 | Boceto de fondo (= fondo para ocultar) |
+| 19 | Fondo de las celdas de datos |
+| 20 | Fondo de la zona inferior |
+| 28 | Líneas separadoras de zonas (= fondo para ocultar) |
+| 1 | Marcas de minutos |
 | 2 | Marcas de horas |
-| 3 | Texto de la fecha |
 | 4 | Horas |
 | 5 | Separador de la hora |
 | 6 | Minutos |
 | 7 | Segundos y AM/PM |
-| 8 | Títulos de los campos |
+| 3 | Texto de la fecha |
 | 9 | Icono del indicador central |
-| 10 | Valores de los campos |
-| 11 | Indicador central Off |
 | 12 | Indicador central On |
-| 13 | Icono del campo inferior central |
-| 14 | Info Off |
-| 15 | Info Izquierda On |
-| 16 | Icono de batería |
-| 17 | Info Derecha On |
-| 18 | Fondo de la zona superior |
-| 19 | Fondo de las celdas de datos |
-| 20 | Fondo de la zona inferior |
-| 21 | Info Superior On |
+| 11 | Indicador central Off |
+| 8 | Títulos de los campos |
+| 10 | Valores de los campos |
 | 22 | Icono campo izquierda arriba |
 | 23 | Icono campo izquierda centro |
 | 24 | Icono campo izquierda abajo |
 | 25 | Icono campo derecha arriba |
 | 26 | Icono campo derecha centro |
 | 27 | Icono campo derecha abajo |
-| 28 | Líneas separadoras de zonas (= fondo para ocultar) |
-| 29 | Boceto de fondo (= fondo para ocultar) |
+| 13 | Icono del campo inferior central |
+| 16 | Icono de batería |
+| 14 | Info Off |
+| 21 | Info Superior On |
+| 15 | Info Izquierda On |
+| 17 | Info Derecha On |
 | 30 | Salvapantallas (hora, fecha, boceto, batería) |
 
 ### Paleta de Colores Predefinidos

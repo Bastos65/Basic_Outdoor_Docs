@@ -254,7 +254,7 @@ Choose how duration-based values are displayed across the watch face:
 
 #### Titles, Icons & Units Display
 
-**Show Titles Of The 6 Side Fields** / **Show Icons Of The 6 Side Fields** / **Show Units Of The 6 Side Fields** (enabled by default): hide titles, icons and/or units of the 6 data cells. Remaining elements are re-centered in the cell and values get a bigger font.
+**Show Titles Of The 6 Side Fields** / **Show Icons Of The 6 Side Fields** / **Show Units Of The 6 Side Fields** (titles and icons enabled by default, units disabled by default): hide titles, icons and/or units of the 6 data cells. Remaining elements are re-centered in the cell. Hiding icons or units gives the values a bigger font (same font in all 6 fields). The weather condition icon is always shown.
 
 #### Custom Titles
 
@@ -297,35 +297,35 @@ BASIC OUTDOOR offers **31 customizable colors**:
 | ID | Element |
 |----|---------|
 | 0 | Background Color |
-| 1 | Minute Ticks & Separators Color |
+| 18 | Top Zone Background Color |
+| 29 | Background Sketch Color (= background to hide) |
+| 19 | Data Fields Cells Background Color |
+| 20 | Bottom Zone Background Color |
+| 28 | Zones Separator Lines Color (= background to hide) |
+| 1 | Minute Ticks Color |
 | 2 | Hour Ticks Color |
-| 3 | Date Text Color |
 | 4 | Time Hours Color |
 | 5 | Time Separator Color |
 | 6 | Time Minutes Color |
 | 7 | Time Seconds & AM/PM Color |
-| 8 | Data Fields Title Color |
+| 3 | Date Text Color |
 | 9 | Center Gauge Icon Color |
-| 10 | Data Fields Value Color |
-| 11 | Center Gauge Off Color |
 | 12 | Center Gauge On Color |
-| 13 | Bottom Center Field Icon Color |
-| 14 | Info Off Color |
-| 15 | Info Left On Color |
-| 16 | Battery Icon Color |
-| 17 | Info Right On Color |
-| 18 | Top Zone Background Color |
-| 19 | Data Fields Cells Background Color |
-| 20 | Bottom Zone Background Color |
-| 21 | Info Top On Color |
+| 11 | Center Gauge Off Color |
+| 8 | Data Fields Title Color |
+| 10 | Data Fields Value Color |
 | 22 | Left Top Field Icon Color |
 | 23 | Left Middle Field Icon Color |
 | 24 | Left Bottom Field Icon Color |
 | 25 | Right Top Field Icon Color |
 | 26 | Right Middle Field Icon Color |
 | 27 | Right Bottom Field Icon Color |
-| 28 | Zones Separator Lines Color (= background to hide) |
-| 29 | Background Sketch Color (= background to hide) |
+| 13 | Bottom Center Field Icon Color |
+| 16 | Battery Icon Color |
+| 14 | Info Off Color |
+| 21 | Info Top On Color |
+| 15 | Info Left On Color |
+| 17 | Info Right On Color |
 | 30 | Screen Saver Color (time, date, sketch, battery) |
 
 ### Predefined Color Palette
