@@ -22,14 +22,16 @@ Choose your language:
 
 ## ✨ Key Features
 
-- **46 compatible Garmin watches**
+- **53 compatible Garmin watches** (including the fēnix 9 series)
 - **76+ data types** available
 - **31 customizable colors**
-- **8 hand-drawn sketch backgrounds** (mountains, trail runner, cyclist, hiker, lake, runner / cyclist / swimmer silhouettes) or none
+- **29 hand-drawn sketch backgrounds**: 8 activities (mountains, trail runner, cyclist, hiker, lake, runner / cyclist / swimmer silhouettes) and 21 famous peaks (Mont Blanc, Everest, K2, Matterhorn, Mount Fuji, Kilimanjaro, Pyrenees summits...) or none
 - **6 data cells** with title, colored icon and value around a **segmented goal gauge**
 - **Large centered time** with fixed-position seconds and AM/PM
 - **Dual weather support** (Garmin Weather + OpenWeatherMap)
 - **19 date format languages** supported
+
+![Available backgrounds](docs/images/Kiosk_Backgrounds.jpg)
 
 ## 📥 Installation
 
@@ -71,7 +73,7 @@ For private inquiries or licensing issues:
 
 ---
 
-**Version:** 2026_11_22  
+**Version:** 2026_11_24  
 **Developer:** Bastos65  
 **Contact:** [Send a message](https://pay.b65dev.com/portfolio/contact)
 

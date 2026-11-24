@@ -2,7 +2,7 @@
 
 > ⚠️ **DISCLAIMER**: This repository contains user documentation only. No source code, algorithms, backend logic or licensing mechanisms are included. Any attempt to reverse engineer the product is prohibited.
 
-![Version](https://img.shields.io/badge/version-2026__11__22-blue)
+![Version](https://img.shields.io/badge/version-2026__11__24-blue)
 ![Platform](https://img.shields.io/badge/platform-Garmin%20Connect%20IQ-green)
 ![API](https://img.shields.io/badge/API-5.0.0%2B-orange)
 
@@ -36,7 +36,7 @@
 
 ### Key Features
 
-- ⛰️ **Sketch Backgrounds**: 8 hand-drawn backgrounds (or none), tinted with the color of your choice
+- ⛰️ **Sketch Backgrounds**: 29 hand-drawn backgrounds: 8 activities and 21 famous peaks (or none), tinted with the color of your choice
 - 🔲 **6 Data Cells**: Title, icon and value, arranged around the central gauge
 - 🎯 **Segmented Center Gauge**: Goal progress with icon and value
 - ❤️ **Bottom Center Field**: Heart rate by default
@@ -66,8 +66,11 @@ A hand-drawn sketch is displayed in the top zone, behind the time:
 
 - **Landscapes**: Mountains (default), Trail Runner, Cyclist, Hiker, Lake
 - **Silhouettes**: large Runner, Cyclist or Swimmer silhouette
+- **Famous peaks**: 21 summits traced from real photos (Pyrenees, Alps, Himalaya, Patagonia, Americas, Africa, Oceania)
 - **None**: No background
 - Tinted with a configurable color
+
+![Available backgrounds](docs/images/Kiosk_Backgrounds.jpg)
 
 ### 3. Data Cells
 
@@ -285,6 +288,27 @@ Leave the custom title empty to use the default data title. Titles are displayed
 | Runner Silhouette | Large runner silhouette |
 | Cyclist Silhouette | Large cyclist silhouette |
 | Swimmer Silhouette | Large swimmer silhouette |
+| Mont Blanc | Alps, France-Italy |
+| K2 | Karakoram, Pakistan-China |
+| Everest | Himalaya, Nepal-China |
+| Balaïtous | Pyrenees, France-Spain |
+| Vignemale | Pyrenees, north face |
+| Gabizos | Pyrenees, from the Col du Soulor |
+| Pic du Midi d'Ossau | Pyrenees, above the Gentau lake |
+| Cirque de Gavarnie | Pyrenees, cirque and Grande Cascade |
+| Pic du Midi de Bigorre | Pyrenees, observatory and antenna |
+| Matterhorn | Alps, Switzerland-Italy |
+| Tre Cime di Lavaredo | Dolomites, Italy |
+| Mount Fuji | Japan |
+| Ama Dablam | Himalaya, Nepal |
+| Fitz Roy | Patagonia, Argentina-Chile |
+| Torres del Paine | Patagonia, Chile |
+| Half Dome | Yosemite, USA |
+| Denali | Alaska, USA |
+| Aconcagua | Andes, Argentina |
+| Kilimanjaro | Tanzania, with acacia trees |
+| Uluru | Australia |
+| Aoraki / Mount Cook | New Zealand |
 
 **Background Sketch Color**: Tint color of the sketch. Select the same color as the top zone background to hide it.
 
@@ -631,8 +655,8 @@ Moon phases are numbered from 0 to 7:
 
 ---
 
-**Last updated**: November 22, 2026  
-**Document version**: 1.0  
+**Last updated**: November 24, 2026  
+**Document version**: 1.1  
 **Author**: Bastos65
 
 ---

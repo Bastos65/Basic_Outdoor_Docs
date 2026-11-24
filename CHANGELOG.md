@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026_11_24]
+
+### Added
+- 21 famous peak sketch backgrounds, traced from real photos: Mont Blanc, K2, Everest, Balaïtous, Vignemale, Gabizos, Pic du Midi d'Ossau, Cirque de Gavarnie, Pic du Midi de Bigorre, Matterhorn, Tre Cime di Lavaredo, Mount Fuji, Ama Dablam, Fitz Roy, Torres del Paine, Half Dome, Denali, Aconcagua, Kilimanjaro, Uluru, Aoraki / Mount Cook (29 backgrounds in total)
+- fēnix 9 series support: fēnix 9 43mm / 47mm, fēnix 9 Pro 43mm / 47mm / 51mm, fēnix 9 Pro Solar 47mm / 51mm
+
+### Fixed
+- Total distance (30 days / month / week, bike, run, swim) showing 0 on some watches (e.g. Enduro 3) whose activity history uses Garmin time
+
+---
+
 ## [2026_11_22]
 
 ### Added

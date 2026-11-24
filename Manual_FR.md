@@ -2,7 +2,7 @@
 
 > ⚠️ **AVERTISSEMENT** : Ce dépôt contient uniquement la documentation utilisateur. Aucun code source, algorithme, logique serveur ou mécanisme de licence n'est inclus. Toute tentative de rétro-ingénierie du produit est interdite.
 
-![Version](https://img.shields.io/badge/version-2026__11__22-blue)
+![Version](https://img.shields.io/badge/version-2026__11__24-blue)
 ![Platform](https://img.shields.io/badge/platform-Garmin%20Connect%20IQ-green)
 ![API](https://img.shields.io/badge/API-5.0.0%2B-orange)
 
@@ -36,7 +36,7 @@
 
 ### Caractéristiques Clés
 
-- ⛰️ **Esquisses de Fond** : 8 fonds dessinés à la main (ou aucun), teintés de la couleur de votre choix
+- ⛰️ **Esquisses de Fond** : 29 fonds dessinés à la main : 8 activités et 21 sommets célèbres (ou aucun), teintés de la couleur de votre choix
 - 🔲 **6 Cellules de Données** : Titre, icône et valeur, disposées autour de la jauge centrale
 - 🎯 **Jauge Centrale Segmentée** : Progression de l'objectif avec icône et valeur
 - ❤️ **Champ Bas Centre** : Fréquence cardiaque par défaut
@@ -66,8 +66,11 @@ Une esquisse dessinée à la main s'affiche dans la zone haute, derrière l'heur
 
 - **Paysages** : Montagnes (par défaut), Coureur trail, Cycliste, Randonneur, Lac
 - **Silhouettes** : grande silhouette de coureur, cycliste ou nageur
+- **Sommets célèbres** : 21 sommets tracés d'après de vraies photos (Pyrénées, Alpes, Himalaya, Patagonie, Amériques, Afrique, Océanie)
 - **Aucun** : Pas de fond
 - Teinte de couleur configurable
+
+![Fonds disponibles](docs/images/Kiosk_Backgrounds.jpg)
 
 ### 3. Cellules de Données
 
@@ -285,6 +288,27 @@ Laissez le titre personnalisé vide pour utiliser le titre par défaut de la don
 | Silhouette course | Grande silhouette de coureur |
 | Silhouette vélo | Grande silhouette de cycliste |
 | Silhouette natation | Grande silhouette de nageur |
+| Mont Blanc | Alpes, France-Italie |
+| K2 | Karakoram, Pakistan-Chine |
+| Everest | Himalaya, Népal-Chine |
+| Balaïtous | Pyrénées, France-Espagne |
+| Vignemale | Pyrénées, face nord |
+| Gabizos | Pyrénées, vu du col du Soulor |
+| Pic du Midi d'Ossau | Pyrénées, au-dessus du lac Gentau |
+| Cirque de Gavarnie | Pyrénées, cirque et Grande Cascade |
+| Pic du Midi de Bigorre | Pyrénées, observatoire et antenne |
+| Cervin | Alpes, Suisse-Italie |
+| Tre Cime di Lavaredo | Dolomites, Italie |
+| Mont Fuji | Japon |
+| Ama Dablam | Himalaya, Népal |
+| Fitz Roy | Patagonie, Argentine-Chili |
+| Torres del Paine | Patagonie, Chili |
+| Half Dome | Yosemite, États-Unis |
+| Denali | Alaska, États-Unis |
+| Aconcagua | Andes, Argentine |
+| Kilimandjaro | Tanzanie, avec acacias |
+| Uluru | Australie |
+| Aoraki / Mont Cook | Nouvelle-Zélande |
 
 **Couleur esquisse de fond** : Teinte de l'esquisse. Choisissez la même couleur que le fond de la zone haute pour la masquer.
 
@@ -631,8 +655,8 @@ Les phases de lune sont numérotées de 0 à 7 :
 
 ---
 
-**Dernière mise à jour** : 22 novembre 2026  
-**Version du document** : 1.0  
+**Dernière mise à jour** : 24 novembre 2026  
+**Version du document** : 1.1  
 **Auteur** : Bastos65
 
 ---

@@ -2,7 +2,7 @@
 
 > ⚠️ **AVISO**: Este repositorio contiene únicamente la documentación de usuario. No se incluye código fuente, algoritmos, lógica de servidor ni mecanismos de licencia. Cualquier intento de ingeniería inversa del producto está prohibido.
 
-![Version](https://img.shields.io/badge/version-2026__11__22-blue)
+![Version](https://img.shields.io/badge/version-2026__11__24-blue)
 ![Platform](https://img.shields.io/badge/platform-Garmin%20Connect%20IQ-green)
 ![API](https://img.shields.io/badge/API-5.0.0%2B-orange)
 
@@ -36,7 +36,7 @@
 
 ### Características Clave
 
-- ⛰️ **Bocetos de Fondo**: 8 fondos dibujados a mano (o ninguno), teñidos del color que elijas
+- ⛰️ **Bocetos de Fondo**: 29 fondos dibujados a mano: 8 actividades y 21 cumbres famosas (o ninguno), teñidos del color que elijas
 - 🔲 **6 Celdas de Datos**: Título, icono y valor, alrededor del indicador central
 - 🎯 **Indicador Central Segmentado**: Progreso del objetivo con icono y valor
 - ❤️ **Campo Inferior Central**: Frecuencia cardíaca por defecto
@@ -66,8 +66,11 @@ Un boceto dibujado a mano se muestra en la zona superior, detrás de la hora:
 
 - **Paisajes**: Montañas (por defecto), Corredor de trail, Ciclista, Senderista, Lago
 - **Siluetas**: gran silueta de corredor, ciclista o nadador
+- **Cumbres famosas**: 21 cumbres trazadas a partir de fotos reales (Pirineos, Alpes, Himalaya, Patagonia, Américas, África, Oceanía)
 - **Ninguno**: Sin fondo
 - Color de tinte configurable
+
+![Fondos disponibles](docs/images/Kiosk_Backgrounds.jpg)
 
 ### 3. Celdas de Datos
 
@@ -285,6 +288,27 @@ Deja el título personalizado vacío para usar el título por defecto del dato. 
 | Silueta carrera | Gran silueta de corredor |
 | Silueta ciclismo | Gran silueta de ciclista |
 | Silueta natación | Gran silueta de nadador |
+| Mont Blanc | Alpes, Francia-Italia |
+| K2 | Karakórum, Pakistán-China |
+| Everest | Himalaya, Nepal-China |
+| Balaïtous | Pirineos, Francia-España |
+| Vignemale | Pirineos, cara norte |
+| Gabizos | Pirineos, desde el Col du Soulor |
+| Pic du Midi d'Ossau | Pirineos, sobre el lago Gentau |
+| Cirque de Gavarnie | Pirineos, circo y Grande Cascade |
+| Pic du Midi de Bigorre | Pirineos, observatorio y antena |
+| Matterhorn | Alpes, Suiza-Italia |
+| Tre Cime di Lavaredo | Dolomitas, Italia |
+| Mount Fuji | Japón |
+| Ama Dablam | Himalaya, Nepal |
+| Fitz Roy | Patagonia, Argentina-Chile |
+| Torres del Paine | Patagonia, Chile |
+| Half Dome | Yosemite, EE. UU. |
+| Denali | Alaska, EE. UU. |
+| Aconcagua | Andes, Argentina |
+| Kilimanjaro | Tanzania, con acacias |
+| Uluru | Australia |
+| Aoraki / Mount Cook | Nueva Zelanda |
 
 **Color del boceto de fondo**: Color de tinte del boceto. Elige el mismo color que el fondo de la zona superior para ocultarlo.
 
@@ -631,8 +655,8 @@ Las fases lunares se numeran del 0 al 7:
 
 ---
 
-**Última actualización**: 22 de noviembre de 2026  
-**Versión del documento**: 1.0  
+**Última actualización**: 24 de noviembre de 2026  
+**Versión del documento**: 1.1  
 **Autor**: Bastos65
 
 ---
