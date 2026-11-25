@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [2026_11_25]
+
+### Changed
+- Improved peak sketches: thicker main ridge line for a bolder silhouette, slightly thicker strokes while keeping fine details (rock lines, glaciers, vegetation)
+
+---
+
 ## [2026_11_24]
 
 ### Added

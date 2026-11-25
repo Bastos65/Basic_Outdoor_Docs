@@ -73,7 +73,7 @@ For private inquiries or licensing issues:
 
 ---
 
-**Version:** 2026_11_24  
+**Version:** 2026_11_25  
 **Developer:** Bastos65  
 **Contact:** [Send a message](https://pay.b65dev.com/portfolio/contact)
 
